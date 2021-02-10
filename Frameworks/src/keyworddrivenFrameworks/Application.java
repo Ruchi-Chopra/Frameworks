@@ -12,6 +12,7 @@ public class Application {
 	public void VerifyInvalidLogin() throws IOException
 	{
 		String[][] data = Generic.getData("C:\\Users\\ruchi\\Documents\\QA Course\\Selenium\\TestDataFrameworks.xlsx", "Sheet2");
+		//Changes done to release1.1
 		Methods mtd = new Methods();
 		for (int i=1;i<data.length;i++)
 		{
